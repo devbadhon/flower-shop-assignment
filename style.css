@@ -133,11 +133,12 @@ body {
 
 /* hot deal section style */
 
-.hot-deal-container{
+.hot-deal-container {
     background-color: rgba(229, 84, 115, 0.05);
     margin-top: 100px;
 }
-.hot-deal{
+
+.hot-deal {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -146,12 +147,18 @@ body {
     gap: 80px;
 }
 
-#hot-title{
+#hot-title {
     margin-bottom: 0px;
 }
 
 /* ==========This is footer style============== */
+footer {
+    margin-top: 100px;
+    width: 1922px;
+    height: 449px;
+}
 
-.footer-container{
-
+.footer-container {
+text-align: center;
+padding-top: 117px;
 }
