@@ -57,7 +57,7 @@ body {
 
 /* main section style */
 
-main {
+.main-first {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -129,4 +129,29 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 0px 59px 31px 20px;
+}
+
+/* hot deal section style */
+
+.hot-deal-container{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 173px 20px 173px;
+    text-align: center;
+    gap: 80px;
+}
+
+#hot-title{
+    margin-bottom: 0px;
+}
+
+/* ==========This is footer style============== */
+
+.footer-container{
+
 }
