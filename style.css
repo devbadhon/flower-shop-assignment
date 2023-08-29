@@ -5,6 +5,11 @@ body {
 }
 
 /* common primary style */
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
 
 .common-description {
     color: rgba(39, 39, 39, 0.60);
@@ -48,4 +53,80 @@ body {
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 0px;
+}
+
+/* main section style */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.featured-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.flower-size {
+    width: 270px;
+}
+
+.image-bg1 {
+    background: url(<path-to-image>), #d3d3d3 50% / cover no-repeat;
+    border-top: 80px solid #d3d3d3;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+}
+
+.image-bg2 {
+    background: #0597a026;
+    border-top: 80px solid #cbfcff26;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+}
+
+.image-bg3 {
+    background: #477d1126;
+    border-top: 80px solid #e2ffc526;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+}
+
+.tree-name {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    margin: -26px 31px 37px 32px;
+}
+
+.tree-name .flower-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.icon-section {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 99px 20px 100px;
+}
+
+.icon-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 59px 31px 20px;
 }
