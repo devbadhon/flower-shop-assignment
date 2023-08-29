@@ -209,7 +209,15 @@ body {
     width: 100%;
 }
 
-
+#btn-shop{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
 
 /* ==========This is footer style============== */
 
